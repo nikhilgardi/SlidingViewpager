@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">SlidingViewpager</string>
+    <string name="hello_world">Welcome to Money on Mobile Bank</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_item1">Accounts</string>
+    <string name="title_activity_item2">Money Transfer</string>
+    <string name="title_activity_mini_statement">Mini Statement</string>
+    <string name="open_drawer">Open Navigation</string>
+    <string name="close_drawer">Close Navigation</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Accounts</item>
+        <item>Money Transfer</item>
+        <item>Recharge</item>
+        <item>Mini Statement</item>
+        <item>Settings</item>
+        <item>Logout</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </array>
+
+    <string name="locate_us">Locate Us</string>
+    <string name="offers">All Offers</string>
+    <string name="title_activity_welcome">welcome</string>
+    <string name="title_activity_locate">locate</string>
+    <string name="title_activity_offers">All Offers</string>
+    <string name="login">Login</string>
+    <string name="reg">Register</string>
+    <string name="nearme">Near Me</string>
+    <string name="location">By Location</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="action_sign_in_short">Action</string>
+    <string name="action_register">Register</string>
+    <string name="orText">Text</string>
+    <string name="title_activity_afterlogin">afterlogin</string>
+    <string name="select">Choose a category</string>
+
+    <string-array name="recharge">
+        <item>Mobile Recharge</item>
+        <item>Electricity Bill Payment</item>
+        <item>Movie Tickets</item>
+        <item>Air Booking</item>
+        <item>Bus Ticket</item>
+        <item>DTH Recharge</item>
+        <item>Train Booking</item>
+    </string-array>
+    <string-array name="mobile_operator">
+        <item>Airtel</item>
+        <item>BSNL</item>
+        <item>Idea</item>
+        <item>MTS</item>
+        <item>Reliance CDMA</item>
+        <item>Reliance GSM</item>
+        <item>Tata Docomo</item>
+        <item>Tata Indicom</item>
+        <item>Vodofone</item>
+    </string-array>
+    <string-array name="electricity_bill">
+        <item>BSES Rajdhani - Delhi</item>
+        <item>Dakshin Gujarat Vij</item>
+        <item>Madhya Gujarat Vij</item>
+        <item>Paschim Gujarat Vij</item>
+        <item>Reliance Energy - Mumbai</item>
+        <item>Uttar Gujarat Vij</item>
+    </string-array>
+    <string-array name="dth_operator">
+        <item>Airtel Digital TV</item>
+        <item>Dish TV</item>
+        <item>Reliance Digital TV</item>
+        <item>Sun Direct</item>
+        <item>Tata Sky</item>
+        <item>Videcon d2h</item>
+    </string-array>
+    <string name="account_details">Account Details</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="balance">Current Account</string>
+    <string name="current_balance">Account Balance</string>
+    <string name="current_price">10,000 Rs.</string>
+    <string name="return_value">Return to main menu</string>
+    <string name="mini_statement">Mini Statement</string>
+    <string name="from_date">From Date </string>
+    <string name="to_date">To Date</string>
+    <string name="get_statement">Submit</string>
+    <string name="title_activity_recharge">Recharge</string>
+    <string name="spinner_title">Select Category</string>
+    <string name="title_activity_mobile_recharge">mobile_recharge</string>
+    <string name="title_activity_electricity_bill">electricity_bill</string>
+    <string name="title_activity_dth_recharge">Dth_recharge</string>
+    <string name="mobile_topup">Mobile Topup</string>
+    <string name="mobile_no">Enter Mobile Number</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="operator">Operator</string>
+    <string name="amount">Amount</string>
+    <string name="elec">Electricity Bill</string>
+    <string name="consumer_no">Consumer Number</string>
+    <string name="billing_unit">Billing Unit</string>
+    <string name="amount_no">Enter Amount Rs.</string>
+    <string name="dth_recharge">Dth Recharge</string>
+    <string name="consumer_id">Enter Consumer Id</string>
+    <string name="mobile_select">Select operator</string>
+    <string name="elec_op">Select your Electricity Bill</string>
+    <string name="select_dth">Select operator</string>
+    <string name="from_ac">From A/C:</string>
+    <string name="to_ac">To A/C:</string>
+    <string name="money_transfer">Money Transfer</string>
+    <string name="transfer">Transfer</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="change_mpin">Change MPIN</string>
+    <string name="self_account">Manange Self Account</string>
+    <string name="change_no">Change Mobile No</string>
+    <string name="forgot_mpin">Forgot MPIN</string>
+    <string name="manage_payees">Manage Payees</string>
+    <string name="enable_gprs">Enable GPRS</string>
+</resources>

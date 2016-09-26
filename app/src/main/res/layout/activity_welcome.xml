@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/bank"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#DCDCDC"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_below="@+id/textView"
+            android:hint="@string/username"
+            android:maxLength="10"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:typeface="serif"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            />
+
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/password"
+            android:hint="@string/password"
+            android:maxLength="8"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:typeface="serif"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Password"
+            android:id="@+id/chckBox"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="33sp"
+            android:text="@string/login"
+            android:id="@+id/login"
+            android:layout_below="@+id/numberpassword"
+            android:layout_centerHorizontal="true"
+            android:background="#ff1817ff"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="40dp"
+            />
+        <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/reg"-->
+        <!--android:id="@+id/reg"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:background="#ff1817ff"-->
+        <!--android:textColor="#ffffffff"-->
+        <!--android:layout_marginLeft="120dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--/>-->
+        <ScrollView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scrollbars="horizontal"
+            android:fillViewport="true"
+            android:id="@+id/scroll_id">
+            <TextView
+                android:id="@+id/exc"
+                android:layout_width="400dip"
+                android:layout_height="100dip"
+                android:textSize="7pt"
+                android:textColor="#AA0000"
+                android:layout_below="@+id/login"
+                android:layout_alignLeft="@+id/login"
+                android:layout_alignStart="@+id/login"
+                />
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
